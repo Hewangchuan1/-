@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block title %}加密上传{% endblock %}
+
+{% block head %}
+		<meta charset="UTF-8">
+		<title>HTML5多文件预览上传-zyUpload</title>
+		<!-- 引用控制层插件样式 -->
+		<link rel="stylesheet" href="{{url_for('static',filename='css/zyUpload.css')}}" type="text/css">
+		
+		<script type="text/javascript" src="{{url_for('static',filename='js/jquery.min.js')}}"></script>
+		<!-- 引用核心层插件 -->
+		<script type="text/javascript" src="{{url_for('static',filename='js/zyFile.js')}}"></script>
+		<!-- 引用控制层插件 -->
+		<script type="text/javascript" src="{{url_for('static',filename='js/zyUpload.js')}}"></script>
+		<!-- 引用初始化JS -->
+		<!--<script type="text/javascript" src="demo.js"></script>-->
+		<script type="text/javascript" src="{{url_for('static',filename='js/jqueryrotate.js')}}"></script>
+
+		<script type="text/javascript" src="{{url_for('static',filename='js/index.js')}}"></script>
+{% endblock %}
+
+{% block main %}
+		<h1 style="text-align:center;">图片上传</h1>
+	    <div id="demo" class="demo"></div>   
+{% endblock %}
+
+
+
+
+
+
+

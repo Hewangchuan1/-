@@ -1,0 +1,42 @@
+.logo{
+    width: 50px;
+}
+
+body{
+    background: #f3f3f3;
+}
+
+.navbar-brand{
+    float:left;
+    height:50px;
+    padding:7px 5px;
+    font-size:18px;
+    line-height:20px;
+}
+
+.main{
+    background: #fff;
+    width: 730px;
+    margin: 0 auto;
+    overflow: inherit;
+    padding: 10px;
+}
+
+.page-title{
+    text-align: center;
+}
+
+.Base{
+    background:url('/static/images/background01.jpg') no-repeat center;
+    background-size:100% 100%;
+    background-attachment:fixed;
+    }
+
+.lmlblog-member-menu {
+    background-color: #fff;
+    clear: both;
+    position: relative;
+    margin-bottom: 16px;
+    padding: 3px 50px 0px;
+    text-align: center;
+}

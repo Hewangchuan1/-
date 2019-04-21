@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block title %}首页{% endblock %}
+
+{% block head %}
+		<meta charset="UTF-8">
+		<title>HTML5多文件预览上传-zyUpload</title>
+		<!-- 引用控制层插件样式 -->
+		<link rel="stylesheet" href="{{url_for('static',filename='css/zyUpload.css')}}" type="text/css">
+
+        <link rel="stylesheet" href="{{url_for('static',filename='css/download.css')}}" type="text/css">
+		<script type="text/javascript" src="{{url_for('static',filename='js/jquery.min.js')}}"></script>
+		<!-- 引用核心层插件 -->
+		<script type="text/javascript" src="{{url_for('static',filename='js/zyFile.js')}}"></script>
+		<!-- 引用控制层插件 -->
+		<script type="text/javascript" src="{{url_for('static',filename='js/zyDownload.js')}}"></script>
+		<!-- 引用初始化JS -->
+		<!--<script type="text/javascript" src="demo.js"></script>-->
+		<script type="text/javascript" src="{{url_for('static',filename='js/jqueryrotate.js')}}"></script>
+
+		<script type="text/javascript" src="{{url_for('static',filename='js/downloadindex.js')}}"></script>
+{% endblock %}
+
+{% block main %}
+    <h3 class="page-title">下载解密</h3>
+    <ul class="question-list-group">
+          <ul class="list-group">
+              {% for photo in photos %}
+              <li class="list-group-item">{{photo.photoname}}
+                   <a href= {{photo.photopath}} style="left:565px;position:absolute;">展示</a>
+                   <a href={{photo.photopath}} style="left:600px;position:absolute;" download={{photo.photoname}}>下载</a>
+              </li>
+              {% endfor %}
+          </ul>
+	    <div id="demo" class="demo"></div>
+    </ul>
+{% endblock %}

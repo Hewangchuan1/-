@@ -1,0 +1,14 @@
+.list-group{
+    left:10px;
+    position:relative;
+}
+.list-group-item{
+    position:relative;
+    display:block;
+    padding:10px 15px;
+    background-color:#fff;
+    border:5px solid #ddf;
+    right:unset;
+    width:653px;
+
+}
