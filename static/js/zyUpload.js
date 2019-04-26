@@ -158,7 +158,7 @@
 //						alert('图片格式不对，只能上传jpg的图片');
 						continue;
 					}
-					if (file.size>=30000) {
+					if (file.size>=50000) {
 						alert('您这个"'+ file.name +'"文件大小过大');	
 					} else {
 						// 在这里需要判断当前所有文件中
@@ -367,7 +367,7 @@
 						$("#uploadProgress_" + file.index).hide();
 						$("#uploadSuccess_" + file.index).show();
 //						$("#uploadInf").append("<p>上传成功，文件地址是：" + response + "</p>");
-                        $(".SecretImg").append("<div class='upload_append_list'><a style='width:120px;' class='imgBox'><div class='uploadImg'><img id= class='upload_image' src=http://127.0.0.1:4241/static/photo/"+eval(response)[0]+"/"+eval(response)[1]+"/></div></a><span style='padding-left:30px;text_align:center;display:inline-block'>上传成功</span></div>");
+                        $(".SecretImg").append("<div class='upload_append_list'><a style='width:120px;' class='imgBox'><div class='uploadImg'><img id= class='upload_image' src=http://172.31.102.126:4241/static/photo/"+eval(response)[0]+"/"+eval(response)[1]+"/></div></a><span style='padding-left:30px;text_align:center;display:inline-block'>上传成功</span></div>");
 						// 根据配置参数确定隐不隐藏上传成功的文件
 						if(para.finishDel){
 							// 移除效果

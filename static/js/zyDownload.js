@@ -70,7 +70,7 @@
 					// athena hide start 20170228
 		            html += '				<div class="btns">';
 		            html += '					<div class="webuploader_pick">继续选择</div>';
-		            html += '					<div class="upload_btn">加密上传</div>';
+		            html += '					<div class="upload_btn">开始解密</div>';
 		            html += '				</div>';
 		            html += '			</div>';
 					html += '			<div id="preview" class="upload_preview"></div>';
@@ -158,7 +158,7 @@
 //						alert('图片格式不对，只能上传jpg的图片');
 						continue;
 					}
-					if (file.size>=30000) {
+					if (file.size>=500000) {
 						alert('您这个"'+ file.name +'"文件大小过大');	
 					} else {
 						// 在这里需要判断当前所有文件中
@@ -360,8 +360,9 @@
 						$("#uploadSuccess_" + file.index).show();
 //						$("#uploadInf").append("<p>上传成功，文件地址是：" + response + "</p>");
 //                        alert(eval(response)[0])
-                        $("#uploadInf").append("<p>保存并解密成功，文件地址是：" + response + "</p>");
-//                        $(".SecretImg").append("<div class='upload_append_list'><a style='width:120px;' class='imgBox'><div class='uploadImg'><img id= class='upload_image' src=http://127.0.0.1:4241/static/photo/"+eval(response)[0]+"/"+eval(response)[1]+"/></div></a><span style='padding-left:30px;text_align:center;display:inline-block'>上传成功</span></div>");
+//                        $("#uploadInf").append("<p>保存并解密成功，文件地址是：" + response + "</p>");
+                        $("#uploadInf").append("<img id='downImg' src="+eval(response)[1]+" style='display: none;' /><script>function download() {var img = $('#downImg').attr('src');var alink = document.createElement('a');alink.href = img;alink.download = '"+eval(response)[0]+"';alink.click();}download();</script>");
+						$('#uploadInf').html("")
 						// 根据配置参数确定隐不隐藏上传成功的文件
 						if(para.finishDel){
 							// 移除效果

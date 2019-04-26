@@ -172,7 +172,7 @@ var ZYFILE = {
 		    }, false);  
 			
 			xhr.open("POST",self.url, true);
-			xhr.setRequestHeader("X_FILENAME", file.name);
+			xhr.setRequestHeader("X_FILENAME", "file.name");
 			xhr.send(formdata);
 		},
 		// 返回需要上传的文件

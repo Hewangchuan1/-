@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2fa68ad8-95a3-4711-9063-d73980b7b2c4" name="Default" comment="" />
+    <list default="true" id="2fa68ad8-95a3-4711-9063-d73980b7b2c4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/05c0c6ddb61f_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/zyDownload.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/zyDownload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/zyUpload.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/zyUpload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zlktqa.py" beforeDir="false" afterPath="$PROJECT_DIR$/zlktqa.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,86 +22,7 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="zlktqa.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zlktqa.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="337" column="22" lean-forward="true" selection-start-line="337" selection-start-column="22" selection-end-line="337" selection-end-column="22" />
-              <folding>
-                <element signature="e#18#119#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wsgi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="37" selection-start-column="37" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/test/wsgi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/test/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mod_wsgi/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zyUpload.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/zyUpload.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7201">
-              <caret line="379" column="47" selection-start-line="379" selection-start-column="47" selection-end-line="379" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="downloadindex.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/downloadindex.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="161" column="23" selection-start-line="161" selection-start-column="23" selection-end-line="161" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="up_photo.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/up_photo.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -141,6 +68,9 @@
       <find>misc</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -175,16 +105,16 @@
         <option value="$PROJECT_DIR$/models.py" />
         <option value="$PROJECT_DIR$/static/css/download.css" />
         <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/static/js/zyDownload.js" />
-        <option value="$PROJECT_DIR$/templates/download.html" />
         <option value="$PROJECT_DIR$/static/js/downloadindex.js" />
         <option value="$PROJECT_DIR$/static/js/index.js" />
-        <option value="$PROJECT_DIR$/static/js/zyUpload.js" />
         <option value="$PROJECT_DIR$/wsgi.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="C:/test/wsgi.py" />
         <option value="C:/test/test.py" />
+        <option value="$PROJECT_DIR$/templates/download.html" />
         <option value="$PROJECT_DIR$/zlktqa.py" />
+        <option value="$PROJECT_DIR$/static/js/zyUpload.js" />
+        <option value="$PROJECT_DIR$/static/js/zyDownload.js" />
       </list>
     </option>
   </component>
@@ -194,12 +124,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-52" />
-    <option name="y" value="162" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1801" />
+    <option name="y" value="-18" />
     <option name="width" value="1619" />
     <option name="height" value="875" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -213,6 +144,17 @@
               <item name="yunjiami" type="b2602c69:ProjectViewProjectNode" />
               <item name="yunjiami" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="yunjiami" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunjiami" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunjiami" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunjiami" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -224,7 +166,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/research/modified_ATRank/2019_3_4" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -582,19 +524,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="106" y="165" width="1619" height="875" extended-state="0" />
-    <editor active="true" />
+    <frame x="1592" y="-8" width="1368" height="916" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24017467" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2847633" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31756756" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31756756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -617,15 +558,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/../黑色系/css/shcoredefault.css" />
-    <entry file="file://$PROJECT_DIR$/templates/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/../图片上传/demo.html" />
     <entry file="file://$PROJECT_DIR$/static/js/jquery.min.js" />
     <entry file="file://$PROJECT_DIR$/templates/new.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -641,13 +573,7 @@
     <entry file="file://C:/../图片上传/control/js/jquery.min.js" />
     <entry file="file://C:/../图片上传/control/js/zyUpload.js" />
     <entry file="file://C:/../上传3/test.php" />
-    <entry file="file://$PROJECT_DIR$/jj.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/jj.html" />
     <entry file="file://C:/../bootstrapFileInput-1.3/app/advanced/__init__.py" />
     <entry file="file://C:/../bootstrapFileInput-1.3/manage.py" />
     <entry file="file://C:/../bootstrapFileInput-1.3/config.py" />
@@ -750,24 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/download.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#ul#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#li#0;n#ul#0;n#ul#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/zyDownload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6878">
-          <caret line="362" column="77" selection-start-line="362" selection-start-column="69" selection-end-line="362" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3078">
@@ -777,16 +685,9 @@
     </entry>
     <entry file="file://C:/../图片上传/main_upload.py" />
     <entry file="file://C:/../图片上传/models.py" />
-    <entry file="file://$PROJECT_DIR$/static/js/zyUpload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7201">
-          <caret line="379" column="47" selection-start-line="379" selection-start-column="47" selection-end-line="379" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/downloadindex.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
+        <state relative-caret-position="3059">
           <caret line="161" column="23" selection-start-line="161" selection-start-column="23" selection-end-line="161" selection-end-column="23" />
         </state>
       </provider>
@@ -798,24 +699,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mod_wsgi/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -829,16 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/test/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/test/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -846,15 +724,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zlktqa.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="337" column="22" lean-forward="true" selection-start-line="337" selection-start-column="22" selection-end-line="337" selection-end-column="22" />
+        <state relative-caret-position="2888">
+          <caret line="161" column="48" selection-start-line="161" selection-start-column="48" selection-end-line="161" selection-end-column="62" />
           <folding>
             <element signature="e#18#119#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/zyFile.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/test/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/download.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="112" selection-start-line="30" selection-start-column="102" selection-end-line="30" selection-end-column="112" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#ul#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#li#0;n#ul#0;n#ul#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/zyUpload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3040">
+          <caret line="160" column="43" lean-forward="true" selection-start-line="160" selection-start-column="43" selection-end-line="160" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/zyDownload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="115" column="16" selection-start-line="115" selection-start-column="16" selection-end-line="115" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/research/modified_ATRank/2019_3_4/model.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

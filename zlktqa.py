@@ -10,6 +10,7 @@ from scipy import misc
 import numpy as np
 from PIL import Image
 import simplejson
+import base64
 
 app = Flask(__name__)
 app.config.from_object(config)
@@ -154,12 +155,12 @@ def up_photo():
         print(usernames)
         print(g.user.username)
         if photo_exit is None:
-            photo_new = Photo(username=g.user.username, photoname=img.filename, photopath='http://127.0.0.1:4241/static/photo/'+g.user.username+'/'+img.filename)
+            photo_new = Photo(username=g.user.username, photoname=img.filename, photopath='http://172.31.102.126:4241/static/photo/'+g.user.username+'/'+img.filename)
             db.session.add(photo_new)
             db.session.commit()
         elif g.user.username not in usernames:
             photo_new = Photo(username=g.user.username, photoname=img.filename,
-                              photopath='http://127.0.0.1:4241/static/photo/' + g.user.username + '/' + img.filename)
+                              photopath='http://172.31.102.126:4241/static/photo/' + g.user.username + '/' + img.filename)
             db.session.add(photo_new)
             db.session.commit()
         return jsonify(g.user.username, img.filename)
@@ -204,7 +205,12 @@ def download():
             os.makedirs(savepath)
         savepath = os.path.join(savepath, img.filename)
         miwen.save(savepath)
-        return jsonify(savepath)
+        with open(savepath, "rb") as f:
+            img_stream = base64.b64encode(f.read())
+        img_stream = "data:image/jpg;base64," + str(img_stream)[2:-1]
+        print('地址是：', savepath)
+        return jsonify(img.filename, img_stream)
+
 @app.before_request
 def my_before_request():
     user_id = session.get('user_id')
@@ -268,9 +274,12 @@ def jiami(ima, JK):
     JK = JK[:ima.shape[0]*ima.shape[1]*8]
 
     print(JK[-50:])
-    print('ima的最后十个数', ima[:,:,0].flatten()[-10:])
+    print('ima的形状', ima.shape)
     JK = JK.reshape(ima.shape[0]*ima.shape[1], 8)
-    ima_str = [bin(i)[2:].rjust(8, '0') for i in ima[:, :, 0].flatten()]
+    if len(list(ima.shape))==3:
+        ima_str = [bin(i)[2:].rjust(8, '0') for i in ima[:, :, 0].flatten()]
+    else :
+        ima_str = [bin(i)[2:].rjust(8, '0') for i in ima.flatten()]
     print('ima_str的最后一个数',ima_str[-1])
     miwen = ['' for i in range(ima.shape[0]*ima.shape[1])]
     for i in range(0, 8//2):
@@ -334,7 +343,7 @@ def jiemi(ima, JK):
 
      return miwen
 
-# if __name__ == '__main__':
-#     app.run(port=4241, debug=True)
+if __name__ == '__main__':
+    app.run(port=4241, debug=True)
 
 #痛苦总是走在勇气前面，然后哀嚎，然后忍耐，然后改变
